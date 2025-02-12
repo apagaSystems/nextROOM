@@ -56,11 +56,11 @@ class MainActivity : ComponentActivity() {
             RoomApplicationTheme {
 //              CountAAAA()
                 
-//                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-//                    Greeting(
-//                        modifier = Modifier.padding(innerPadding), noteDatabase
-//                    )
-//                }
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    Greeting(
+                        modifier = Modifier.padding(innerPadding), noteDatabase
+                    )
+                }
 
             }
         }
